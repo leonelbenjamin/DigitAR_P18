@@ -13,7 +13,10 @@ font-family: 'Quicksand', sans-serif;   //font-weigt = 700
     --color-violeta: #506AD4;
     --color-azul-marino: #111827;
     --color-magenta: #CE4BF2;
-    --color-blanco: #F2F2F2;
+    --color-blanco: #fff;
+    --color-blanco-gris: #F2F2F2;
+
+
 }
 /************* Reset ****************/
 html {
@@ -31,4 +34,19 @@ body {
     overflow-x: hidden;
 }
 
+/************* Componentes ****************/
+.card{
+    background-color: var(--color-blanco);
+    border-radius: 50px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+.title{
+    position: relative;
+}
 
+
+
+/************* Styles ****************/
+body{
+    background-color: var(--color-blanco-gris);
+}
