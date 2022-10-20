@@ -6,135 +6,183 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="src/VectorDigitarLogo.svg">
     <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <title>Digitar</title>
 </head>
 <body>
-    <nav class="menu">
-        <div class="menu-logo">
-            <h2>DIGITAR</h2>
-        </div>
-        <div class="menu-content">
-            <ul class="menu-items">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Quiénes somos</a></li>
-                <li><a href="#">Becados</a></li>
-                <li><a href="#">Metricas</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-            <div class="language-selct">
-                <div class="dropdown">
-                    <div class="dropdown-selector">
-                        <i class="fa-solid fa-globe"></i>
-                        <button>ES</button>
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </div>
-                    <div class="dropdown-content">
-                    <a href="en/index.html">EN</a>                 
-                    </div>
-                  </div>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand margin mx-md-5 " href="#">
+                <img src="/src/VectorDigitarLogo.svg" alt="">
+                DIGITAR
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mx-md-5" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-md-2">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item mx-md-4">
+                    <a class="nav-link active" aria-current="page" href="quienesSomos.html">Quiénes somos</a>
+                </li>
+                <li class="nav-item mx-md-4">
+                    <a class="nav-link active" aria-current="page" href="becados.html">Becados</a>
+                </li>
+                <li class="nav-item mx-md-4">
+                    <a class="nav-link active" aria-current="page" href="metricas.html">Metricas</a>
+                </li>
+                <li class="nav-item mx-md-4">
+                    <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-globe"></i>ES
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/en/index.html">EN</a></li>
+                    </ul>
+                </li>
             </div>
-            
         </div>
-    </nav>
-    <section class="inicio">
-        <div class="inicio-content">
-            <h1>DIGITAR</h1>
-            <p>Llevando a las nuevas generaciones hacia un futuro digital.</p>
+      </nav>
+    <section class="inicio container">
+        <div class="row gx-md-5 ">
+            <img class="inicio-background" src="/src/LOGO SVG.svg" alt="">
+            <div class="inicio-content col-lg-6 col-12  d-flex flex-column mb-3 justify-content-center  ">
+                <h1 class="titulo">DIGITAR</h1>
+                <p>Llevando a las nuevas generaciones hacia un futuro digital.</p>
+            </div>
+            <img class="inicio-img col-sm-6 col-12"src="/src/ImagenInicio.png" alt="">
         </div>
-        <img src="/src/ImagenInicio.png" alt="">
-        <img src="/src/VectorDigitarLogo.svg" alt="">
     </section>
-    <section class="Becas">
-        <div class="title">
-            <h2>Origen de las becas</h2>
+    <section class="becas my-5">
+        <div class="titular-resaltado">
+            <h2 class="container">Origen de las becas</h2>
         </div>
-        <div class="section-content">
-            <p>Las becas <strong>DigitAr</strong> nacen por el interés de formar jóvenes, ofreciendo oportunidades para capacitarse en instituciones educativas de la República Argentina.</p>
-            <p>Los enfoques específicos son temas relacionados con el diseño gráfico, marketing digital y la programación.</p>
-            <p>Dentro de un siglo dominado por la tecnología, se busca acompañar a las nuevas generaciones no solo en lo técnico sino también en lo humano, <strong>en camino hacia un futuro digital</strong>.</p>
+        <div class="section-content container">
+            <div class="row">
+                <p class="col-md-9">Las becas <strong>DigitAr</strong> nacen por el interés de formar jóvenes, ofreciendo oportunidades para capacitarse en instituciones educativas de la República Argentina.</p>
+                <p class="col-md-9">Los enfoques específicos son temas relacionados con el diseño gráfico, marketing digital y la programación.</p>
+                <p class="col-md-9">Dentro de un siglo dominado por la tecnología, se busca acompañar a las nuevas generaciones no solo en lo técnico sino también en lo humano, <strong>en camino hacia un futuro digital</strong>.</p>
+            </div>
         </div>   
     </section>
-    <section class="testimonios">
-        <div class="title">
-            <h2>Testimonios</h2>
+    <section class="testimonios my-5">
+        <div class="titular-resaltado">
+            <h2 class="container">Testimonios</h2>
         </div>
-        <p>A continuación, algunos testimonios de nuestros becados en Buenos Aires:</p>
-    <div class="card-container">
-        <div class="card">
-            <div class="card-info">
-                <img src="/src/testimonios.png" alt="Persona becada">
-                <p><b>Macarena Jensen</b></p>
-                <div class="card-becado">
-                    <p>becada</p>
+        <p class="container">A continuación, algunos testimonios de nuestros becados en Buenos Aires:</p>
+        <!-- Swiper -->
+        <div class="swiper swiper-testimonios container-fluid my-5 ">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide d-flex flex-column d-flex align-items-start d-flex flex-md-row d-flex align-items-md-center">
+                    <div class="user d-flex flex-column d-flex align-items-center mx-md-3">
+                        <img class="" src="/src/testimonios.png" alt="">
+                        <div class="user-name ">
+                            <h5 class="my-2">Macarena Jensen</h5>
+                            <b class="my-5 pe-5">Becada</b>
+                        </div>
+                    </div>
+                    <p class="user-text mt-1 mx-md-1">“La beca representó un cambio tanto en lo academico como lo personal, fue un gran desafio trabajar en equipo.  Gracias al curso se pueden abrir puertas en lo laboral y es una oportunidad única”</p>
+                </div>
+                <div class="swiper-slide d-flex flex-column d-flex align-items-start d-flex flex-md-row d-flex align-items-md-center">
+                    <div class="user d-flex flex-column d-flex align-items-center mx-md-3">
+                        <img class="" src="/src/testimonios.png" alt="">
+                        <div class="user-name ">
+                            <h5 class="my-2">Macarena Jensen</h5>
+                            <b class="my-5 pe-5">Becada</b>
+                        </div>
+                    </div>
+                    <p class="user-text mt-1 mx-md-1">“La beca representó un cambio tanto en lo academico como lo personal, fue un gran desafio trabajar en equipo.  Gracias al curso se pueden abrir puertas en lo laboral y es una oportunidad única”</p>
+                </div>
+                <div class="swiper-slide d-flex flex-column d-flex align-items-start d-flex flex-md-row d-flex align-items-md-center">
+                    <div class="user d-flex flex-column d-flex align-items-center mx-md-3">
+                        <img class="" src="/src/testimonios.png" alt="">
+                        <div class="user-name ">
+                            <h5 class="my-2">Macarena Jensen</h5>
+                            <b class="my-5 pe-4">Becada</b>
+                        </div>
+                    </div>
+                    <p class="user-text mt-1 mx-md-1">“La beca representó un cambio tanto en lo academico como lo personal, fue un gran desafio trabajar en equipo.  Gracias al curso se pueden abrir puertas en lo laboral y es una oportunidad única”</p>
+                </div><div class="swiper-slide d-flex flex-column d-flex align-items-start d-flex flex-md-row d-flex align-items-md-center">
+                    <div class="user d-flex flex-column d-flex align-items-center mx-md-3">
+                        <img class="" src="/src/testimonios.png" alt="">
+                        <div class="user-name ">
+                            <h5 class="my-2">Macarena Jensen</h5>
+                            <b class="my-5 pe-4">Becada</b>
+                        </div>
+                    </div>
+                    <p class="user-text mt-1 mx-md-1">“La beca representó un cambio tanto en lo academico como lo personal, fue un gran desafio trabajar en equipo.  Gracias al curso se pueden abrir puertas en lo laboral y es una oportunidad única”</p>
                 </div>
             </div>
-            <div class="card-testimonies">
-                <p>“La beca representó un cambio tanto en lo academico como lo personal, fue un gran desafio trabajar en equipo.  Gracias al curso se pueden abrir puertas en lo laboral y es una oportunidad única”</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-info">
-                <img src="/src/testimonios.png" alt="Persona becada">
-                <p><b>Macarena Jensen</b></p>
-                <div class="card-becado">
-                    <p>becada</p>
-                </div>
-            </div>
-            <div class="card-testimonies">
-                <p>“La beca representó un cambio tanto en lo academico como lo personal, fue un gran desafio trabajar en equipo.  Gracias al curso se pueden abrir puertas en lo laboral y es una oportunidad única”</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-info">
-                <img src="/src/testimonios.png" alt="Persona becada">
-                <p><b>Macarena Jensen</b></p>
-                <div class="card-becado">
-                    <p>becada</p>
-                </div>
-            </div>
-            <div class="card-testimonies">
-                <p>“La beca representó un cambio tanto en lo academico como lo personal, fue un gran desafio trabajar en equipo.  Gracias al curso se pueden abrir puertas en lo laboral y es una oportunidad única”</p>
-            </div>
-        </div>
-    </div>
-    </section>
-    <section class="eventos card">
-        <div class="envento ">
-            <div class="evento-img">
-                <img src="/src/EventosRecientes.png" alt="Evento">
-            </div>
-            <div class="eventos-testimonies">
-                <div class=" border-b">
-                    <p><b>Salida a la muestra Gaspar Lidebinsky</b></p>
-                </div>
-                <p>🎉Gracias a #DigitAR hoy visitamos la muestra "casa tomada" con su creador @gasparlibedinsky
-                    ✨Muy inspirador ver como el arte se apodera del @museodecorativo, como dialoga con los diferentes espacios y sobretodo poder conversar con el artista y después tener un workshop para profundizar conceptos. Gracias Gaspar Libendisky y gracias DigitAR por seguir inspirando a los jóvenes! 💪
-                </p>
-            </div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
-    <footer>
-        <img src="/src/VectorDigitarLogo.svg" alt="">
-        <ul class="menu-footer">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">Quienes somos</a></li>
-            <li><a href="index.html">Becados</a></li>
-            <li><a href="index.html">Métricas</a></li>
-            <li><a href="index.html">Contacto</a></li>
-        </ul>
-        <div class="social-media">
-            <ul>
-                <li><a href=""></a><i class="fa-brands fa-dribbble"></i></li>
-                <li><a href=""></a><i class="fa-brands fa-instagram"></i></i></li>
-                <li><a href=""></a><i class="fa-brands fa-linkedin-in"></i></li>
-            </ul>
+    <section class="eventos">
+        <div class="titular-resaltado">
+            <h2 class="container">Eventos recientes</h2>
         </div>
-        <p>© 2022 DigitAR. All Rights Reserved.</p>
+        <div class="container">
+            <div class="evento container my-3 d-flex flex-column d-flex flex-md-row ">
+                <img class="mt-4 mt-md-0 mx-md-2 " src="/src/EventosRecientes.png" alt="Evento">
+                <div class="eventos-testimonies mx-md-4">
+                    <div class=" evento-titulo m-3 mx-2">
+                        <p><b>Salida a la muestra Gaspar Lidebinsky</b></p>
+                    </div>
+                    <p>🎉Gracias a #DigitAR hoy visitamos la muestra "casa tomada" con su creador @gasparlibedinsky
+                        ✨Muy inspirador ver como el arte se apodera del @museodecorativo, como dialoga con los diferentes espacios y sobretodo poder conversar con el artista y después tener un workshop para profundizar conceptos. Gracias Gaspar Libendisky y gracias DigitAR por seguir inspirando a los jóvenes! 💪
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="evento container my-3 d-flex flex-column d-flex flex-md-row ">
+                <img class="mt-4 mt-md-0 mx-md-2 " src="/src/EventosRecientes.png" alt="Evento">
+                <div class="eventos-testimonies mx-md-4">
+                    <div class=" evento-titulo m-3 mx-2">
+                        <p><b>Salida a la muestra Gaspar Lidebinsky</b></p>
+                    </div>
+                    <p>🎉Gracias a #DigitAR hoy visitamos la muestra "casa tomada" con su creador @gasparlibedinsky
+                        ✨Muy inspirador ver como el arte se apodera del @museodecorativo, como dialoga con los diferentes espacios y sobretodo poder conversar con el artista y después tener un workshop para profundizar conceptos. Gracias Gaspar Libendisky y gracias DigitAR por seguir inspirando a los jóvenes! 💪
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <footer class="d-flex flex-column d-flex align-items-center">
+        <div class="footer-contenido d-flex flex-column d-flex flex-md-row d-flex justify-content-md-between align-items-md-center  m-md-5 py-md-2 ">
+            <img class=" d-flex align-items-center  justify-content-center my-2" src="/src/VectorDigitarLogo.svg" alt="">
+            <div class="menu-footer d-flex flex-column p-2 mb-3 px-4 d-flex justify-content-evenly d-flex align-items-center my-3 d-flex flex-md-row ">
+                <a class="mx-md-4" href="index.html"><b>Home</b></a>
+                <a class="mx-md-2" href="quienesSomos.html">Quienes somos</a>
+                <a class="mx-md-2" href="becados.html">Becados</a>
+                <a class="mx-md-2" href="metricas.html">Métricas</a>
+                <a class="mx-md-2" href="contacto.html">Contacto</a>
+            </div>
+            <div class="social-media d-flex flex-row d-flex justify-content-around my-2">
+                    <a href=""><i class="fa-brands fa-dribbble"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <p class="my-2 container">© 2022 DigitAR. All Rights Reserved.</p>
     </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/bd1ac078c1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
     <script src="js/app.js"></script>
 </body>
 </html>
