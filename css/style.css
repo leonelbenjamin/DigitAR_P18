@@ -71,7 +71,16 @@ ul> li> a{
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 }
 
-/*inicio*/
+
+
+/************************
+
+      ###INICIO###
+
+************************/
+
+
+/*inicio head*/
 .inicio-img{
     border-radius: 50px;
 }
@@ -134,6 +143,46 @@ ul> li> a{
 .evento-titulo{
     border-bottom: 3px solid#F4663B;
 }
+
+/************************
+
+      ###BECADOS###
+
+************************/
+.becados{
+    margin: 6rem 0;
+}
+.becados .titular-resaltado{
+    background-color: var(--color-amarillo);
+
+}
+.becados img{
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    border: 2px solid var(--color-celeste);
+    object-fit: cover;
+    padding: 4px;
+}
+.becado{
+    height: 450px;
+    margin: 2rem 0;
+}
+.becado .contenido {
+    height: 180px;
+    width: 280px;
+}
+.becado i{
+    color: #004FC7;
+    
+}
+
+
+
+
+
+
+
 /*Footer*/
 
 footer{
@@ -168,6 +217,14 @@ footer p {
 
 
 @media (min-width: 767.98px) { 
+
+    /************************
+
+      ###INICIO###
+
+    ************************/
+
+    /*Inicio*/
     .inicio{
     margin: 12rem 0;
     }
@@ -185,9 +242,10 @@ footer p {
         font-size: 128px;
         line-height: 140%;
     }
+
     .titular-resaltado{
         padding: 0 4rem;
-        width: 600px; 
+        width: 40%; 
     }
     .evento img{
         width: 550px;
@@ -198,6 +256,10 @@ footer p {
     footer p {
         width: 100%;
         text-align: center;
+    }
+    footer{
+        margin: 2rem 0 0;
+        padding: 3rem;
     }
     footer img{
         width: 50px;   
@@ -217,7 +279,11 @@ footer p {
         border-bottom: none ;
     }
     .footer-contenido{
-        border-top: 2px solid #D2D5DA; ;
+        border-top: 2px solid #D2D5DA; 
+        padding: 3rem
+    }
+    .social-media{
+        width: 100px;
     }
 }
  
