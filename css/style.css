@@ -85,7 +85,7 @@ ul> li> a{
 }
 .inicio-background{
     
-    position: relative;
+    position: absolute;
     right: 0;
     top: 5px;
     z-index: -10;
@@ -174,7 +174,6 @@ ul> li> a{
 }
 .becado i{
     color: #004FC7;
-    
 }
 /************************
 
@@ -216,6 +215,10 @@ ul> li> a{
     margin: 0;
     padding: 0;
 }
+.metricas .torta img{
+    width: 300px;
+    align-items: center;
+}
 .metricas .card{
     border-radius: 50px;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
@@ -240,17 +243,29 @@ ul> li> a{
 .metricas .card:nth-child(3) p:first-child{
     color: var(--color-naranja);
 }
+/************************
+
+      ###CONTACTO###
+
+************************/
+.contacto .titular-resaltado{
+    background-color: var(--color-amarillo);
+}
+.vector{
+    width: 10;
+}
+
 
 /*Footer*/
 
 footer{
     background-color: var(--color-blanco); 
-    
 }
 footer p {
-    
     text-align: center;
-    
+}
+footer-contenido img{
+    display: none;
 }
 .menu-footer a {
     outline: none;
@@ -303,11 +318,16 @@ footer p {
 
     .titular-resaltado{
         padding: 0 4rem;
-        width: 40%; 
+        width: 40%;
+        
     }
     .evento img{
         width: 550px;
         border-radius: 10px;
+    }
+    .metricas .torta img{
+        width: auto;
+        align-items: center;
     }
 
     /*Footer*/
