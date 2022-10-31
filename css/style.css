@@ -251,8 +251,8 @@ ul> li> a{
 .contacto .titular-resaltado{
     background-color: var(--color-amarillo);
 }
-.vector{
-    width: 10;
+.vector img{
+    width: 300px;
 }
 
 
@@ -328,6 +328,9 @@ footer-contenido img{
     .metricas .torta img{
         width: auto;
         align-items: center;
+    }
+    .vector img{
+        width: auto;
     }
 
     /*Footer*/
