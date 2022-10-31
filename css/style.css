@@ -57,7 +57,7 @@ ul> li> a{
 .titular-resaltado{ 
     border-top-right-radius: 80px 80px;
     border-bottom-right-radius: 80px 80px;
-    margin:2rem 0 2rem;
+    margin:6rem 0 2rem;
     width: 300px;  
     
 }
@@ -78,16 +78,15 @@ ul> li> a{
       ###INICIO###
 
 ************************/
-
-
 /*inicio head*/
+
 .inicio-img{
     border-radius: 50px;
 }
 .inicio-background{
     
-    position: absolute;
-    left: 190px;
+    position: relative;
+    right: 0;
     top: 5px;
     z-index: -10;
 }
@@ -113,6 +112,7 @@ ul> li> a{
     padding: 1rem;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
+    margin: 2rem;
 }
 .user > img{
     height: 140px;
@@ -176,12 +176,31 @@ ul> li> a{
     color: #004FC7;
     
 }
+/************************
 
+      ###QUIENES SOMOS###
 
+************************/
 
-
-
-
+.quienes-somos .titular-resaltado{
+    background-color: var(--color-amarillo);
+}
+.quienes-somos .card{
+    border-radius: 30px;
+    padding: 2rem;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+.objetivos{
+    margin: 3rem 0;
+    max-width: 800px;
+}
+.objetivos-card{
+    background-color: #111827;
+}
+.objetivos-comunicar .titular-resaltado{
+    background-color: var(--color-celeste);
+}
 
 /*Footer*/
 
